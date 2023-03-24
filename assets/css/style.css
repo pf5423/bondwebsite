@@ -314,6 +314,10 @@ h6 {
   .navbar ul {
     display: none;
   }
+
+  #about > div > .row > * {
+    font-size: 18px !important;
+  }
 }
 
 .navbar-mobile {
@@ -476,6 +480,7 @@ h6 {
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
   z-index: 1;
+  width: 100%;
 }
 
 #hero .icon-box .title {
@@ -588,6 +593,10 @@ section {
 
 .about > div > div > p {
   font-size: 20px;
+}
+
+.about > div > div {
+  padding: 20px;
 }
 
 .about > div > .section-title > p {
@@ -954,6 +963,7 @@ section {
   font-size: 20px;
   font-weight: bold;
 }
+
 
 /*--------------------------------------------------------------
 # Services

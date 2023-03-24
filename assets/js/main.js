@@ -265,7 +265,9 @@
       mirror: false
     })
   });
-
+  const galleeryLightbox = GLightbox({
+    selector: '.galleery-lightbox'
+  });
   /**
    * Initiate Pure Counter 
    */
